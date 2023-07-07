@@ -18,6 +18,18 @@ html{
 body{
     font-family: 'Cairo', sans-serif;
 }
+/* start */
+::-webkit-scrollbar{
+    width: 15px;
+}
+::-webkit-scrollbar-track{
+    background-color: var(--section-background);
+}
+::-webkit-scrollbar-thumb{
+    background-color: var(--main-color);
+}
+/* end*/
+
 ul{
     list-style: none;
     padding: 0;
@@ -207,10 +219,15 @@ a{
         padding: 5px;
     }
 }
-.header .min-nav:hover .othr-links{
+.min-nav:hover .othr-links{
     opacity: 1;
     z-index: 100;
     top: calc(100% + 1px);
+}
+.show{
+    opacity: 1 !important;
+    z-index: 100 !important;
+    top: calc(100% + 1px) !important;
 }
 .header .othr-links .links{
     min-width: 250px;
@@ -853,6 +870,8 @@ a{
     top: 0;
     left: 0;
     height: 100%;
+    width: 0%;
+    transition: var(--main-transition);
 }
 /*end skills*/
 /*start work*/
