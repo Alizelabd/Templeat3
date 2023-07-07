@@ -18,12 +18,13 @@
 
         <!--style css-->
         <link rel="stylesheet" href="./css/style.css">
+        
     </head>
     <body>
         <!--start header-->
         <div class="header" id="header">
             <div class="container">
-                <a href="#" class="logo">Elzero</a>
+                <a href="#" class="logo">BAHAR</a>
                 <ul class="main-nav">
                     <li><a href="#articles">Articles</a></li>
                     <li><a href="#gallery">Gallery</a></li>
@@ -50,8 +51,19 @@
                         </div>
                     </li>
                 </ul>
+                <!-- start button languge -->
+                <div class="lang">
+                    <!-- <ul>
+                        <li><a href="index.html">En</a></li>
+                        <li><a href="home-ar.html">Ar</a></li>
+                    </ul> -->
+                    <select onchange="langToggle()" name="lang" id="lang">
+                        <option id="en" value="En">En</option>
+                        <option id="ar" value="Ar">Ar</option>
+                    </select>
+                </div>
+                <!-- end button languge -->
             </div>
-            
         </div>
         <!--end header-->
         <!--start landing-->
@@ -490,33 +502,33 @@
         </div>
         <!--end services-->
         <!--start skills-->
-        <div class="our-skills" id="skills">
+        <div class="our-skills" id="our-skills">
             <h2 class="main-title">our skills</h2>
             <div class="container">
                 <img src="./img/skills.png" alt="skills">
                 <div class="skills">
                     <div class="skill">
-                        <h3>html <span>80%</span></h3>
+                        <h3>html <span>100%</span></h3>
                         <div class="prog">
-                            <span style="width: 80%;"></span>
+                            <span data-progress="100%"></span>
                         </div>
                     </div>
                     <div class="skill">
                         <h3>css <span>50%</span></h3>
                         <div class="prog">
-                            <span style="width: 50%;"></span>
+                            <span data-progress="50%"></span>
                         </div>
                     </div>
                     <div class="skill">
                         <h3>php <span>90%</span></h3>
                         <div class="prog">
-                            <span style="width: 90%;"></span>
+                            <span data-progress="90%"></span>
                         </div>
                     </div>
                     <div class="skill">
-                        <h3>js <span>20%</span></h3>
+                        <h3>js <span>85%</span></h3>
                         <div class="prog">
-                            <span style="width: 20%;"></span>
+                            <span data-progress="85%"></span>
                         </div>
                     </div>
                 </div>
@@ -679,22 +691,22 @@
             <div class="container">
                 <div class="box">
                     <i class="far fa-user fa-2x fa-fw"></i>
-                    <span class="number">150</span>
+                    <span data-count="150" class="number">0</span>
                     <span class="name">Clients</span>
                 </div>
                 <div class="box">
                     <i class="fas fa-code fa-2x fa-fw"></i>
-                    <span class="number">25</span>
+                    <span data-count="25" class="number">0</span>
                     <span class="name">Project</span>
                 </div>
                 <div class="box">
                     <i class="fas fa-globe-asia fa-2x fa-fw"></i>
-                    <span class="number">50</span>
+                    <span data-count="50" class="number">0</span>
                     <span class="name">Countries</span>
                 </div>
                 <div class="box">
                     <i class="far fa-user fa-2x fa-fw"></i>
-                    <span class="number">500</span>
+                    <span data-count="500" class="number">0</span>
                     <span class="name">User</span>
                 </div>
             </div>
@@ -775,8 +787,11 @@
                     <img src="./img/gallery-06.png" alt="gallery">
                 </div>
             </div>
-            <p class="copyright">developed with by@ <span>azzo bahar 2022</span></p>
+            <p class="copyright">developed with by@ <span>aleiz bahar 2022</span></p>
         </div>
         <!--end footer-->
+        <!-- links script  -->
+        <script src="./js/main.js"></script>
+        <!-- links script  -->
     </body>
 </html>
