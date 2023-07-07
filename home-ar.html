@@ -1,0 +1,797 @@
+<!DOCTYPE html>
+<html dir="rtl" lang="ar">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>المشروع الثالث</title>
+        <!--render all elments normally-->
+        <link rel="stylesheet" href="./css/normalize.css">
+
+        <!--font awesome laibrary-->
+        <link rel="stylesheet" href="./css/all.min.css">
+
+        <!--font google-->
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+
+        <!--style css-->
+        <link rel="stylesheet" href="./css/style-ar.css">
+        
+    </head>
+    <body>
+        <!--start header-->
+        <div class="header" id="header">
+            <div class="container">
+                <a href="#" class="logo">الزيرو</a>
+                <ul class="main-nav">
+                    <li><a href="#articles">المقالات</a></li>
+                    <li><a href="#gallery">المعرض</a></li>
+                    <li><a href="#features">الميزات</a></li>
+                    <li class="min-nav">
+                        <a href="#">روابط اخرى</a>
+                        
+                        <div class="othr-links">
+                            <div class="image"><img src="./img/megamenu.png" alt=""></div>
+                            <ul class="links">
+                                <li><a href="#testimonials"><i class="far fa-comments"></i>التوصيات</a></li>
+                                <li><a href="#team-members"><i class="far fa-user"></i>فريق العمل</a></li>
+                                <li><a href="#services"><i class="far fa-building"></i>الخدمات</a></li>
+                                <li><a href="#skills"><i class="far fa-check-circle"></i>مهاراتنا</a></li>
+                                <li><a href="#work"><i class="far fa-clipboard"></i>كيف تعمل</a></li>
+                            </ul>
+                            <ul class="links">
+                                <li><a href="#events"><i class="far fa-calendar"></i>الأحداث</a></li>
+                                <li><a href="#plans"><i class="fas fa-server"></i>خطط التسعير</a></li>
+                                <li><a href="#video"><i class="far fa-play-circle"></i>أفضل الفيديوهات</a></li>
+                                <li><a href="#stats"><i class="far fa-chart-bar"></i>أحصائيات</a></li>
+                                <li><a href="#discount"><i class="fas fa-percent"></i>طلب خصم</a></li>
+                            </ul>
+                        </div>
+                    </li>
+                </ul>
+                <!-- start button languge -->
+                <div class="lang">
+                    <!-- <ul>
+                        <li><a href="index.html">En</a></li>
+                        <li><a href="home-ar.html">Ar</a></li>
+                    </ul> -->
+                    <select onchange="langToggle()" name="lang" id="lang">
+                        <option id="ar" value="Ar">Ar</option>
+                        <option id="en" value="En">En</option>
+                    </select>
+                </div>
+                <!-- end button languge -->
+            </div>
+        </div>
+        <!--end header-->
+        <!--start landing-->
+        <div class="landing">
+            <div class="container">
+                <div class="text">
+                    <h1>مرحباً بكم في عالمنا</h1>
+                    <p>هنا سأشارك كل شيء عن حياتي. الكتب التي أقرأها ، والألعاب التي ألعبها ، والقصص والأحداث</p>
+                </div>
+                <div class="image">
+                    <img src="./img/landing-image.png" alt="landing">
+                </div>
+            </div>
+            <a href="#articles" class="go-down">
+                <i class="fas fa-angle-double-down fa-2x"></i>
+            </a>
+        </div>
+        <!--end landing-->
+        <!--start articles-->
+        <div class="article" id="articles">
+            <h2 class="main-title">المقالات</h2>
+            <div class="container">
+                <div class="box">
+                    <img src="./img/cat-04.jpg" alt="cat-04">
+                    <div class="content">
+                        <h3>العنوان</h3>
+                        <p>الوصف هنا تكتب وصف المقال الخاص بك</p>
+                    </div>
+                    <div class="info">
+                        <a href="#">إقرأ أكثر</a>
+                        <i class="fas fa-long-arrow-alt-left"></i>
+                    </div>
+                </div>
+                <div class="box">
+                    <img src="./img/cat-04.jpg" alt="cat-04">
+                    <div class="content">
+                        <h3>العنوان</h3>
+                        <p>الوصف هنا تكتب وصف المقال الخاص بك</p>
+                    </div>
+                    <div class="info">
+                        <a href="#">إقرأ أكثر</a>
+                        <i class="fas fa-long-arrow-alt-left"></i>
+                    </div>
+                </div>
+                <div class="box">
+                    <img src="./img/cat-04.jpg" alt="cat-04">
+                    <div class="content">
+                        <h3>العنوان</h3>
+                        <p>الوصف هنا تكتب وصف المقال الخاص بك</p>
+                    </div>
+                    <div class="info">
+                        <a href="#">إقرأ أكثر</a>
+                        <i class="fas fa-long-arrow-alt-left"></i>
+                    </div>
+                </div>
+                <div class="box">
+                    <img src="./img/cat-04.jpg" alt="cat-04">
+                    <div class="content">
+                        <h3>العنوان</h3>
+                        <p>الوصف هنا تكتب وصف المقال الخاص بك</p>
+                    </div>
+                    <div class="info">
+                        <a href="#">إقرأ أكثر</a>
+                        <i class="fas fa-long-arrow-alt-left"></i>
+                    </div>
+                </div>
+                <div class="box">
+                    <img src="./img/cat-04.jpg" alt="cat-04">
+                    <div class="content">
+                        <h3>العنوان</h3>
+                        <p>الوصف هنا تكتب وصف المقال الخاص بك</p>
+                    </div>
+                    <div class="info">
+                        <a href="#">إقرأ أكثر</a>
+                        <i class="fas fa-long-arrow-alt-left"></i>
+                    </div>
+                </div>
+                <div class="box">
+                    <img src="./img/cat-04.jpg" alt="cat-04">
+                    <div class="content">
+                        <h3>العنوان</h3>
+                        <p>الوصف هنا تكتب وصف المقال الخاص بك</p>
+                    </div>
+                    <div class="info">
+                        <a href="#">إقرأ أكثر</a>
+                        <i class="fas fa-long-arrow-alt-left"></i>
+                    </div>
+                </div>
+                <div class="box">
+                    <img src="./img/cat-04.jpg" alt="cat-04">
+                    <div class="content">
+                        <h3>العنوان</h3>
+                        <p>الوصف هنا تكتب وصف المقال الخاص بك</p>
+                    </div>
+                    <div class="info">
+                        <a href="#">إقرأ أكثر</a>
+                        <i class="fas fa-long-arrow-alt-left"></i>
+                    </div>
+                </div>
+                <div class="box">
+                    <img src="./img/cat-04.jpg" alt="cat-04">
+                    <div class="content">
+                        <h3>العنوان</h3>
+                        <p>الوصف هنا تكتب وصف المقال الخاص بك</p>
+                    </div>
+                    <div class="info">
+                        <a href="#">إقرأ أكثر</a>
+                        <i class="fas fa-long-arrow-alt-left"></i>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="skatch"></div>
+        <!--end articles-->
+        <!--start gallery-->
+        <div class="gallery" id="gallery">
+            <h2 class="main-title">المعرض</h2>
+            <div class="container">
+                <div class="box">
+                    <div class="image">
+                        <img src="./img/gallery-06.png" alt="gallery">
+                    </div>
+                </div>
+                <div class="box">
+                    <div class="image">
+                        <img src="./img/gallery-06.png" alt="gallery">
+                    </div>
+                </div>
+                <div class="box">
+                    <div class="image">
+                        <img src="./img/gallery-06.png" alt="gallery">
+                    </div>
+                </div>
+                <div class="box">
+                    <div class="image">
+                        <img src="./img/gallery-06.png" alt="gallery">
+                    </div>
+                </div>
+                <div class="box">
+                    <div class="image">
+                        <img src="./img/gallery-06.png" alt="gallery">
+                    </div>
+                </div>
+                <div class="box">
+                    <div class="image">
+                        <img src="./img/gallery-06.png" alt="gallery">
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--end gallery-->
+        <!--start features-->
+        <div class="features" id="features">
+            <h2 class="main-title">الميزات</h2>
+            <div class="container">
+                <div class="box quality">
+                    <div class="img-hollder"><img src="./img/features-03.jpg" alt="features"></div>
+                    <h3>الجودة</h3>
+                    <p>هنا تكتب الميزات لديك. هنا تكتب الميزات لديك </p>
+                    <a href="#">المزيد</a>
+                </div>
+                <div class="box time">
+                    <div class="img-hollder"><img src="./img/features-02 (1).jpg" alt="features"></div>
+                    <h3>الوقت</h3>
+                    <p>هنا تكتب الميزات لديك. هنا تكتب الميزات لديك </p>
+                    <a href="#">المزيد</a>
+                </div>
+                <div class="box passion">
+                    <div class="img-hollder"><img src="./img/features-03.jpg" alt="features"></div>
+                    <h3>الشغف </h3>
+                    <p>هنا تكتب الميزات لديك. هنا تكتب الميزات لديك </p>
+                    <a href="#">المزيد</a>
+                </div>
+            </div>
+        </div>
+        <!--end features-->
+        <!--start TESTIMONIALS-->
+        <div class="testimonials" id="testimonials">
+            <h2 class="main-title">التوصيات</h2>
+            <div class="container">
+                <div class="content">
+                    <img src="./img/avatar-05.png" alt="avatar-05">
+                    <div class="box">
+                        <h3>أسامة محمد</h3>
+                        <span>مطور ويب متكامل</span>
+                        <i class="filled fas fa-star"></i>
+                        <i class="filled fas fa-star"></i>
+                        <i class="filled fas fa-star"></i>
+                        <i class="far fa-star"></i>
+                        <i class="far fa-star"></i>
+                        <p>أكتب التوصية الخاصة بك أو رأيك هنا</p>
+                    </div>
+                </div>
+                <div class="content">
+                    <img src="./img/avatar-05.png" alt="avatar-05">
+                    <div class="box">
+                        <h3>أسامة محمد</h3>
+                        <span>مطور ويب متكامل</span>
+                        <i class="filled fas fa-star"></i>
+                        <i class="filled fas fa-star"></i>
+                        <i class="filled fas fa-star"></i>
+                        <i class="far fa-star"></i>
+                        <i class="far fa-star"></i>
+                        <p>أكتب التوصية الخاصة بك أو رأيك هنا</p>
+                    </div>
+                </div>
+                <div class="content">
+                    <img src="./img/avatar-05.png" alt="avatar-05">
+                    <div class="box">
+                        <h3>أسامة محمد</h3>
+                        <span>مطور ويب متكامل</span>
+                        <i class="filled fas fa-star"></i>
+                        <i class="filled fas fa-star"></i>
+                        <i class="filled fas fa-star"></i>
+                        <i class="far fa-star"></i>
+                        <i class="far fa-star"></i>
+                        <p>أكتب التوصية الخاصة بك أو رأيك هنا</p>
+                    </div>
+                </div>
+                <div class="content">
+                    <img src="./img/avatar-05.png" alt="avatar-05">
+                    <div class="box">
+                        <h3>أسامة محمد</h3>
+                        <span>مطور ويب متكامل</span>
+                        <i class="filled fas fa-star"></i>
+                        <i class="filled fas fa-star"></i>
+                        <i class="filled fas fa-star"></i>
+                        <i class="far fa-star"></i>
+                        <i class="far fa-star"></i>
+                        <p>أكتب التوصية الخاصة بك أو رأيك هنا</p>
+                    </div>
+                </div>
+                <div class="content">
+                    <img src="./img/avatar-05.png" alt="avatar-05">
+                    <div class="box">
+                        <h3>أسامة محمد</h3>
+                        <span>مطور ويب متكامل</span>
+                        <i class="filled fas fa-star"></i>
+                        <i class="filled fas fa-star"></i>
+                        <i class="filled fas fa-star"></i>
+                        <i class="far fa-star"></i>
+                        <i class="far fa-star"></i>
+                        <p>أكتب التوصية الخاصة بك أو رأيك هنا</p>
+                    </div>
+                </div>
+                <div class="content">
+                    <img src="./img/avatar-05.png" alt="avatar-05">
+                    <div class="box">
+                        <h3>أسامة محمد</h3>
+                        <span>مطور ويب متكامل</span>
+                        <i class="filled fas fa-star"></i>
+                        <i class="filled fas fa-star"></i>
+                        <i class="filled fas fa-star"></i>
+                        <i class="far fa-star"></i>
+                        <i class="far fa-star"></i>
+                        <p>أكتب التوصية الخاصة بك أو رأيك هنا</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--end testimonials-->
+        <!--start team members-->
+        <div class="team" id="team-members">
+            <h2 class="main-title">فريق العمل </h2>
+            <div class="container">
+                <div class="box">
+                    <div class="data">
+                        <img src="./img/team-02.jpg" alt="team">
+                        <div class="social">
+                            <a href="#"><i class="fab fa-facebook"></i></a>
+                            <a href="#"><i class="fab fa-twitter"></i></a>
+                            <a href="#"><i class="fab fa-youtube"></i></a>
+                            <a href="#"><i class="fab fa-linkedin-in"></i></a>
+                        </div>
+                    </div>
+                    <div class="info">
+                        <h3>الاسم</h3>
+                        <p>وصف قصير</p>
+                    </div>
+                </div>
+                <div class="box">
+                    <div class="data">
+                        <img src="./img/team-04.jpg" alt="team">
+                        <div class="social">
+                            <a href="#"><i class="fab fa-facebook"></i></a>
+                            <a href="#"><i class="fab fa-twitter"></i></a>
+                            <a href="#"><i class="fab fa-youtube"></i></a>
+                            <a href="#"><i class="fab fa-linkedin-in"></i></a>
+                        </div>
+                    </div>
+                    <div class="info">
+                        <h3>الاسم</h3>
+                        <p>وصف قصير</p>
+                    </div>
+                </div>
+                <div class="box">
+                    <div class="data">
+                        <img src="./img/team-02.jpg" alt="team">
+                        <div class="social">
+                            <a href="#"><i class="fab fa-facebook"></i></a>
+                            <a href="#"><i class="fab fa-twitter"></i></a>
+                            <a href="#"><i class="fab fa-youtube"></i></a>
+                            <a href="#"><i class="fab fa-linkedin-in"></i></a>
+                        </div>
+                    </div>
+                    <div class="info">
+                        <h3>الاسم</h3>
+                        <p>وصف قصير</p>
+                    </div>
+                </div>
+                <div class="box">
+                    <div class="data">
+                        <img src="./img/team-04.jpg" alt="team">
+                        <div class="social">
+                            <a href="#"><i class="fab fa-facebook"></i></a>
+                            <a href="#"><i class="fab fa-twitter"></i></a>
+                            <a href="#"><i class="fab fa-youtube"></i></a>
+                            <a href="#"><i class="fab fa-linkedin-in"></i></a>
+                        </div>
+                    </div>
+                    <div class="info">
+                        <h3>الاسم</h3>
+                        <p>وصف قصير</p>
+                    </div>
+                </div>
+                <div class="box">
+                    <div class="data">
+                        <img src="./img/team-08.jpg" alt="team">
+                        <div class="social">
+                            <a href="#"><i class="fab fa-facebook"></i></a>
+                            <a href="#"><i class="fab fa-twitter"></i></a>
+                            <a href="#"><i class="fab fa-youtube"></i></a>
+                            <a href="#"><i class="fab fa-linkedin-in"></i></a>
+                        </div>
+                    </div>
+                    <div class="info">
+                        <h3>الاسم</h3>
+                        <p>وصف قصير</p>
+                    </div>
+                </div>
+                <div class="box">
+                    <div class="data">
+                        <img src="./img/team-07.jpg" alt="team">
+                        <div class="social">
+                            <a href="#"><i class="fab fa-facebook"></i></a>
+                            <a href="#"><i class="fab fa-twitter"></i></a>
+                            <a href="#"><i class="fab fa-youtube"></i></a>
+                            <a href="#"><i class="fab fa-linkedin-in"></i></a>
+                        </div>
+                    </div>
+                    <div class="info">
+                        <h3>الاسم</h3>
+                        <p>وصف قصير</p>
+                    </div>
+                </div>
+                <div class="box">
+                    <div class="data">
+                        <img src="./img/team-06.png" alt="team">
+                        <div class="social">
+                            <a href="#"><i class="fab fa-facebook"></i></a>
+                            <a href="#"><i class="fab fa-twitter"></i></a>
+                            <a href="#"><i class="fab fa-youtube"></i></a>
+                            <a href="#"><i class="fab fa-linkedin-in"></i></a>
+                        </div>
+                    </div>
+                    <div class="info">
+                        <h3>الاسم</h3>
+                        <p>وصف قصير</p>
+                    </div>
+                </div>
+                <div class="box">
+                    <div class="data">
+                        <img src="./img/team-04.jpg" alt="team">
+                        <div class="social">
+                            <a href="#"><i class="fab fa-facebook"></i></a>
+                            <a href="#"><i class="fab fa-twitter"></i></a>
+                            <a href="#"><i class="fab fa-youtube"></i></a>
+                            <a href="#"><i class="fab fa-linkedin-in"></i></a>
+                        </div>
+                    </div>
+                    <div class="info">
+                        <h3>الاسم</h3>
+                        <p>وصف قصير</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--end team members-->
+        <!--start services-->
+        <div class="services" id="services">
+            <h2 class="main-title">الخدمات</h2>
+            <div class="container">
+                <div class="box">
+                    <i class="fas fa-laptop-code fa-4x"></i>
+                    <h3>اسم الخدمة</h3>
+                    <div class="info">
+                        <a href="#">التفاصيل</a>
+                    </div>
+                </div>
+                <div class="box">
+                    <i class="fas fa-laptop-code fa-4x"></i>
+                    <h3>اسم الخدمة</h3>
+                    <div class="info">
+                        <a href="#">التفاصيل</a>
+                    </div>
+                </div>
+                <div class="box">
+                    <i class="fas fa-laptop-code fa-4x"></i>
+                    <h3>اسم الخدمة</h3>
+                    <div class="info">
+                        <a href="#">التفاصيل</a>
+                    </div>
+                </div>
+                <div class="box">
+                    <i class="fas fa-laptop-code fa-4x"></i>
+                    <h3>اسم الخدمة</h3>
+                    <div class="info">
+                        <a href="#">التفاصيل</a>
+                    </div>
+                </div>
+                <div class="box">
+                    <i class="fas fa-laptop-code fa-4x"></i>
+                    <h3>اسم الخدمة</h3>
+                    <div class="info">
+                        <a href="#">التفاصيل</a>
+                    </div>
+                </div>
+                <div class="box">
+                    <i class="fas fa-laptop-code fa-4x"></i>
+                    <h3>اسم الخدمة</h3>
+                    <div class="info">
+                        <a href="#">التفاصيل</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--end services-->
+        <!--start skills-->
+        <div class="our-skills" id="our-skills">
+            <h2 class="main-title">مهاراتنا</h2>
+            <div class="container">
+                <img src="./img/skills.png" alt="skills">
+                <div class="skills">
+                    <div class="skill">
+                        <h3>html <span>100%</span></h3>
+                        <div class="prog">
+                            <span data-progress="100%"></span>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <h3>css <span>50%</span></h3>
+                        <div class="prog">
+                            <span data-progress="50%"></span>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <h3>php <span>90%</span></h3>
+                        <div class="prog">
+                            <span data-progress="90%"></span>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <h3>js <span>20%</span></h3>
+                        <div class="prog">
+                            <span data-progress="20%"></span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--end skills-->
+        <!--start work-->
+        <div class="work" id="work">
+            <h2 class="main-title">كيف تعمل</h2>
+            <div class="container">
+                <img src="./img/work-steps.png" alt="work">
+                <div class="work-content">
+                    <div class="box">
+                        <img src="./img/work-steps-3.png" alt="">
+                        <div class="info">
+                            <h3>تطوير...</h3>
+                            <p>اكتب وصف قصير هنا اكتب وصف قصير هنا اكتب وصف قصير هنا </p>
+                        </div>
+                    </div>
+                    <div class="box">
+                        <img src="./img/work-steps-3.png" alt="">
+                        <div class="info">
+                            <h3>تطوير...</h3>
+                            <p>اكتب وصف قصير هنا اكتب وصف قصير هنا اكتب وصف قصير هنا </p>
+                        </div>
+                    </div>
+                    <div class="box">
+                        <img src="./img/work-steps-3.png" alt="">
+                        <div class="info">
+                            <h3>تطوير...</h3>
+                            <p>اكتب وصف قصير هنا اكتب وصف قصير هنا اكتب وصف قصير هنا </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--end work-->
+        <!-- start event-->
+        <div class="events" id="events">
+            <h2 class="main-title">أخر الأحداث</h2>
+            <div class="container">
+                <img src="./img/events.png" alt="event">
+                <div class="info">
+                    <div class="times">
+                        <div class="unit">
+                            <span>30</span>
+                            <span>يوم</span>
+                        </div>
+                        <div class="unit">
+                            <span>24</span>
+                            <span>ساعات</span>
+                        </div>
+                        <div class="unit">
+                            <span>60</span>
+                            <span>دقائق</span>
+                        </div>
+                        <div class="unit">
+                            <span>120</span>
+                            <span>ثواني</span>
+                        </div>
+                    </div>
+                    <h3>حدث سيد التكنولوجيا 2022</h3>
+                    <p>وصف الحدث وصف الحدث وصف الحدث </p>
+                </div>
+                <div class="subscribe">
+                    <form action="">
+                        <input type="email" placeholder="أكتب البريد الإلكتروني">
+                        <input type="submit" value="أشتراك">
+                    </form>
+                </div>
+            </div>
+        </div>
+        <!--end events-->
+        <!--start plans-->
+        <div class="plans" id="plans">
+            <h2 class="main-title">الخطط</h2>
+            <div class="container">
+                <div class="box">
+                    <h3>متقدم</h3>
+                    <img src="./img/hosting-professional.png" alt="">
+                    <span>$25</span>
+                    <p>كل شهر</p>
+                    <ul class="info">
+                        <li>مساحة تصل إلى 20GB</li>
+                        <li>عناوين بريدإلكتروني 10</li>
+                        <li>دومين 5</li>
+                        <li>قاعدة بيانات 8</li>
+                        <li>دعم متقدم</li>
+                    </ul>
+                    <a href="#">اختر خطة</a>
+                </div>
+                <div class="box popular">
+                    <div class="leabl">الأكثر شيوعاً</div>
+                    <h3>متقدم</h3>
+                    <img src="./img/hosting-professional.png" alt="">
+                    <span>$25</span>
+                    <p>كل شهر</p>
+                    <ul class="info">
+                        <li>مساحة تصل إلى 20GB</li>
+                        <li>عناوين بريدإلكتروني 10</li>
+                        <li>دومين 5</li>
+                        <li>قاعدة بيانات 8</li>
+                        <li>دعم متقدم</li>
+                    </ul>
+                    <a href="#">أختر خطة</a>
+                </div>
+                <div class="box">
+                    <h3>متقدم</h3>
+                    <img src="./img/hosting-professional.png" alt="">
+                    <span>$25</span>
+                    <p>كل شهر</p>
+                    <ul class="info">
+                        <li>مساحة تصل إلى 20GB</li>
+                        <li>عناوين بريدإلكتروني 10</li>
+                        <li>دومين 5</li>
+                        <li>قاعدة بيانات 8</li>
+                        <li>دعم متقدم</li>
+                    </ul>
+                    <a href="#">أختر خطة</a>
+                </div>
+            </div>
+        </div>
+        <!--end plans-->
+        <div class="top-video" id="video">
+            <h2 class="main-title">أفضل الفيديوهات</h2>
+            <div class="container">
+                <div class="box">
+                    <div class="image">
+                    <img src="./img/video-preview.jpg" alt="video">
+                    <p>كل شيء عن المضيفين الظاهريين</p>
+                </div>
+                <div class="info">
+                    <div class="title">
+                        <h4>أفضل الفيديوهات</h4>
+                        <i class="fas fa-random"></i>
+                    </div>
+                    <ul class="video-info">
+                        <li>كل شيء عن المضيفين الظاهريين<span>05:18</span></li>
+                        
+                        <li>كل شيء عن المضيفين الظاهريين<span>05:18</span></li>
+                        
+                        <li>كل شيء عن المضيفين الظاهريين<span>05:18</span></li>
+                        
+                        <li>كل شيء عن المضيفين الظاهريين<span>05:18</span></li>
+                        
+                        <li>كل شيء عن المضيفين الظاهريين<span>05:18</span></li>
+                        
+                        <li>كل شيء عن المضيفين الظاهريين<span>05:18</span></li>
+                        
+                        <li>كل شيء عن المضيفين الظاهريين<span>05:18</span></li>
+                    </ul>
+                </div>
+                </div>
+            </div>
+        </div>
+        <!--end plans-->
+        <!--start stats-->
+        <div class="stats" id="stats">
+            <h2>أحصائياتنا المميزة</h2>
+            <div class="container">
+                <div class="box">
+                    <i class="far fa-user fa-2x fa-fw"></i>
+                    <span data-count="150" class="number">0</span>
+                    <span class="name">عميل</span>
+                </div>
+                <div class="box">
+                    <i class="fas fa-code fa-2x fa-fw"></i>
+                    <span data-count="25" class="number">0</span>
+                    <span class="name">مشروع</span>
+                </div>
+                <div class="box">
+                    <i class="fas fa-globe-asia fa-2x fa-fw"></i>
+                    <span data-count="50" class="number">0</span>
+                    <span class="name">دولة</span>
+                </div>
+                <div class="box">
+                    <i class="far fa-user fa-2x fa-fw"></i>
+                    <span data-count="500" class="number">0</span>
+                    <span class="name">مستخدم</span>
+                </div>
+            </div>
+        </div>
+        <!--end stats-->
+        <!--start discount-->
+        <div class="discount" id="discount">
+            <div class="image">
+                <div class="content">
+                    <h3>نحن لدينا خصم</h3>
+                    <p>وصف قصير وصف قصير وصف قصير وصف قصير</p>
+                    <img src="./img/discount.png" alt="Discount">
+                </div>
+            </div>
+            <div class="form">
+                <div class="content">
+                    <h3>طلب خصم</h3>
+                    <input class="input" type="text" placeholder="أسمك" name="name">
+                    <input class="input" type="email" placeholder="بريدك الإلكتروني" name="email">
+                    <input class="input" type="text" placeholder="رقم الهاتف" name="phone">
+                    <textarea class="input" placeholder="أخبرنا ما تريد" name="message"></textarea>
+                    <input type="submit" value="أرسال">
+                </div>
+            </div>
+        </div>
+        <!--end discount-->
+        <!--start footer-->
+        <div class="footer">
+            <div class="container">
+                <div class="box">
+                    <h3>الزيرو</h3>
+                    <ul class="social">
+                        <li>
+                            <a href="www.facebook.com" class="facebook"><i class="fab fa-facebook"></i></a>
+                        </li>
+                        <li>
+                            <a href="www.twitter.com" class="twitter"><i class="fab fa-twitter"></i></a>
+                        </li>
+                        <li>
+                            <a href="www.youtube.com" class="youtube"><i class="fab fa-youtube"></i></a>
+                        </li>
+                    </ul>
+                    <p class="text">وصف قصير وصف قصير  وصف قصير وصف قصير وصف قصير وصف قصير وصف قصير </p>
+                </div>
+                <div class="box">
+                    <ul class="links">
+                        <li><a href="#">رابط 1</a></li>
+                        <li><a href="#">رابط 2</a></li>
+                        <li><a href="#">رابط 3</a></li>
+                        <li><a href="#">رابط 4</a></li>
+                        <li><a href="#">رابط 5</a></li>
+                    </ul>
+                </div>
+                <div class="box">
+                    <div class="line">
+                        <i class="fas fa-map-marker-alt fa-fw"></i>
+                        <div class="info">Egypt, Giza, Inside The Sphinx, Room Number 220</div>
+                    </div>
+                    <div class="line">
+                        <i class="far fa-clock fa-fw"></i>
+                        <div class="info">Business Hours: From 10:00 To 18:00</div>
+                    </div>
+                    <div class="line">
+                        <i class="fas fa-phone-volume fa-fw"></i>
+                        <div class="info">
+                            <span>+20123456789</span>
+                            <span>+20198765432</span>
+                        </div>
+                        
+                    </div>
+                </div>
+                <div class="box footer-gallery">
+                    <img src="./img/gallery-06.png" alt="gallery">
+                    <img src="./img/gallery-06.png" alt="gallery">
+                    <img src="./img/gallery-06.png" alt="gallery">
+                    <img src="./img/gallery-06.png" alt="gallery">
+                    <img src="./img/gallery-06.png" alt="gallery">
+                    <img src="./img/gallery-06.png" alt="gallery">
+                </div>
+            </div>
+            <p class="copyright">تصميم وبرمجة <span>العز البحر</span></p>
+        </div>
+        <!--end footer-->
+        <!-- links script  -->
+        <script src="./js/main.js"></script>
+        <!-- links script  -->
+    </body>
+</html>
